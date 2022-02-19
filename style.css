@@ -44,6 +44,17 @@ body{
     padding-right: 6%;
 }
 
+.plan_choice{
+    display: flex;
+}
+
+
+.btn.cancel{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
 footer { 
     position: absolute;
     right: 0;
