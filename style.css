@@ -3,7 +3,6 @@
 body{
     background-image: url("images/pattern-background-desktop.svg");
     font-family: 'Red Hat Display';
-    height: 100%;
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%)
 }
@@ -25,7 +24,7 @@ body{
 .Card_Image img{
     width: 100%;
     border-top-left-radius: 20px 20px;
-    border-top-right-radius: 20px 20px;
+    border-top-right-radius: 20px 20px
 }
 
 .title_card h1{
@@ -33,7 +32,7 @@ body{
     text-align: center;
     font-size: 25px;
     font-weight: 900;
-    padding-top: 4%;
+    padding-top: 4%
 }
 
 .desc_card{
@@ -42,7 +41,7 @@ body{
     color: hsl(224, 23%, 55%);
     padding-left: 6%;
     padding-right: 6%;
-    font-weight: 500;
+    font-weight: 500
 }
 
 .plan_choice{
@@ -52,59 +51,57 @@ body{
     border-radius: 20px 20px;
     margin-left: 7%;
     margin-right: 7%;
-    font-size: 16px;
+    font-size: 16px
 
 }
 
 .music_icon img{
     margin-top: 55%;
-    max-width: 95%;
+    max-width: 95%
 }
 
-.price_info{
-    margin-left: -15%;
-}
+.price_info{ margin-left: -15% }
 
 .plan_time{
     font-weight: 900;
     color: hsl(223, 47%, 23%);
-    margin-top: 29%;
+    margin-top: 29%
 }
 
 .price{
     color: hsl(224, 23%, 55%);
     margin-top: -14%;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .change_btn a{
     line-height: 95px;
     font-size: 14px;
     font-weight: 700;
-    color: hsl(245, 75%, 52%);
+    color: hsl(245, 75%, 52%)
 }
 
 .change_btn a:hover{
     color: hsl(224, 23%, 55%);
-    text-decoration: none;
+    text-decoration: none
 }
 
 .btn{
     border: none;
     cursor: pointer;
-    border-radius: 12px 12px;
+    border-radius: 10px 10px;
     font-size: 14px;
     font-weight: 700;
     padding: 4%;
     margin-left: 7%;
     margin-right: 7%;
-    margin-top: 1%;
+    margin-top: 1%
 }
 
 .btn_group{
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 5%
 }
 
 .payment{
@@ -113,21 +110,17 @@ body{
     box-shadow: 0px 12px 20px rgb(204, 204, 204)
 }
 
-.payment:hover{
-    background-color:  hsl(245, 75%, 70%)
-}
+.payment:hover{ background-color:  hsl(245, 75%, 70%) }
 
 .cancel{
     background-color: rgba(0, 0, 0, 0);
     color: hsl(224, 23%, 55%);
     margin: auto;
     margin-top: 6%;
-    padding: 0;
+    padding: 0
 }
 
-.cancel:hover{
-    color: hsl(223, 47%, 23%);
-}
+.cancel:hover{ color: hsl(223, 47%, 23%) }
 
 footer { 
     position: absolute;
@@ -138,3 +131,17 @@ footer {
 }
 
 footer a { color: hsl(228, 45%, 44%) }
+
+
+@media screen and (max-width: 376px){
+    body{ background-image: url("images/pattern-background-mobile.svg") }
+
+    .Card{
+        width: 320px;
+        height: 540px
+    }
+
+    .plan_choice{ margin-top: 7% }
+
+    .music_icon{ margin-right: 5% }
+}
