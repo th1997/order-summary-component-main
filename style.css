@@ -9,7 +9,7 @@ body{
 }
 
 .Card{
-    background-color: hsl(225, 100%, 98%);
+    background-color: white;
     border-radius: 20px 20px;
     width: 370px;
     height: 580px;
@@ -42,10 +42,44 @@ body{
     color: hsl(224, 23%, 55%);
     padding-left: 6%;
     padding-right: 6%;
+    font-weight: 500;
 }
 
 .plan_choice{
     display: flex;
+    background-color: hsl(225, 100%, 98%);
+    justify-content: space-around;
+    border-radius: 20px 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.music_icon img{
+    margin-top: 55%;
+    max-width: 95%;
+}
+
+.plan_time{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-top: 29%;
+}
+
+.price{
+    color: hsl(224, 23%, 55%);
+    margin-top: -14%;
+}
+
+.change_btn a{
+    line-height: 95px;
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+
+.change_btn a:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
 }
 
 
