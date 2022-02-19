@@ -7,7 +7,7 @@ body{
     background-color: hsl(225, 100%, 94%)
 }
 
-.Card{
+main{
     background-color: white;
     border-radius: 20px 20px;
     width: 370px;
@@ -136,7 +136,7 @@ footer a { color: hsl(228, 45%, 44%) }
 @media screen and (max-width: 376px){
     body{ background-image: url("images/pattern-background-mobile.svg") }
 
-    .Card{
+    main{
         width: 320px;
         height: 540px
     }
