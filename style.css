@@ -19,7 +19,7 @@ body{
     right: 0;
     bottom: 0;
     left: 0;
-    box-shadow: 0px 0px 30px 10px rgb(194, 194, 194)
+    box-shadow: 0px 10px 20px rgb(204, 204, 204)
 }
 
 .Card_Image img{
@@ -52,11 +52,17 @@ body{
     border-radius: 20px 20px;
     margin-left: 7%;
     margin-right: 7%;
+    font-size: 16px;
+
 }
 
 .music_icon img{
     margin-top: 55%;
     max-width: 95%;
+}
+
+.price_info{
+    margin-left: -15%;
 }
 
 .plan_time{
@@ -68,11 +74,12 @@ body{
 .price{
     color: hsl(224, 23%, 55%);
     margin-top: -14%;
+    font-size: 14px;
 }
 
 .change_btn a{
     line-height: 95px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: hsl(245, 75%, 52%);
 }
@@ -82,11 +89,44 @@ body{
     text-decoration: none;
 }
 
-
-.btn.cancel{
+.btn{
     border: none;
-    background-color: rgba(0, 0, 0, 0);
     cursor: pointer;
+    border-radius: 12px 12px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 4%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 1%;
+}
+
+.btn_group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.payment{
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 12px 20px rgb(204, 204, 204)
+}
+
+.payment:hover{
+    background-color:  hsl(245, 75%, 70%)
+}
+
+.cancel{
+    background-color: rgba(0, 0, 0, 0);
+    color: hsl(224, 23%, 55%);
+    margin: auto;
+    margin-top: 6%;
+    padding: 0;
+}
+
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
 }
 
 footer { 
